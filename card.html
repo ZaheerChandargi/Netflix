@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .back_of_card {
+            padding: .5rem;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: .65rem;
+            overflow: hidden;
+
+            width: fit-content;
+            max-width: 18rem;
+            border-radius: 4px;
+            outline: 2.5px solid grey;
+        }
+
+        .card_img img {
+            width: 3.6rem;
+        }
+
+        .top_text {
+            color: white;
+            font-size: .95rem;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+
+        .down_text {
+            color: rgb(0, 119, 255);
+            font-size: .89rem;
+            font-family: sans-serif;
+        }
+
+        .card_icon img {
+            width: 3.4rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="back_of_card">
+        <div class="card_img"><img src="assets/images/mobileShow.png"></div>
+        <div class="card_texts">
+            <div class="top_text">Stranger Things</div>
+            <div class="down_text">Downloading...</div>
+        </div>
+        <div class="card_icon"><img src="assets/images/download-icon.gif" alt="Download icon"></div>
+    </div>
+
+</body>
+</html>
